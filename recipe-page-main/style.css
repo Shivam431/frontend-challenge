@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(14, 45%, 36%);
+  display: flex;
+  justify-content: center;
+}
+
+body h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: gray
+}
+
+body li {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
+  color: gray;
+}
+
+
+.card {
+  max-width: 665px;
+  background-color: white;
+  height: auto;
+  margin: 40px 0;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.section-1 h1 {
+  /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; */
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-1 p {
+  padding-bottom: 20px;
+}
+
+.block {
+  background-color: hsl(30, 54%, 90%);
+  height: 150px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.block h2 {
+  color: hsl(332, 51%, 32%);
+  padding: 20px;
+}
+
+.block ul {
+  padding: 0px 59px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.ingerdient {
+  padding-top: 20px;
+}
+
+.ingerdient h2 {
+  padding-bottom: 15px;
+
+}
+
+.ingerdient ul {
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
+.section-2 {
+  padding-top: 20px;
+}
+
+.section-2 h2 {
+  padding-bottom: 15px;
+ 
+}
+
+.section-2 ol {
+  padding: 0px 32px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+.section-3{
+    padding: 20px 0;
+}
+
+.section-3 h2{
+    padding-bottom: 15px;
+}
+
+.section-3 p {
+    padding-bottom: 10px;
+}
+
